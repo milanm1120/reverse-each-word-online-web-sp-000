@@ -1,11 +1,11 @@
-# def reverse_each_word(string)
-#   original = string.split(" ")
-#   reversed = []
-#   original.each do |word|
-#     reversed<<word.reverse
-#   end
-#    reversed.join(" ")
-# end
+def reverse_each_word(string)
+  original = string.split(" ")
+  reversed = []
+  original.each do |word|
+    reversed<<word.reverse
+  end
+   reversed.join(" ")
+end
 
 def reverse_each_word(string)
   original = string.split(" ")
